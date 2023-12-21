@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About me</h1>
+
+
+    </section>
+
+<!---about me content-->
+
+<section class="about-me">
+
+    <div class="row">
+        <div class="about-col">
+            <h1>ABOUT ME</h1>
+            <p>Lynn Omae is a student at Jomo Kenyatta University 
+                of Agriculture and Technology pursuing a degree 
+                in Bachelor of Science in Computer Science. I am 
+                in my second year. I am the third born in a family 
+                of four,with two sisters,elder,and one small brother.
+                I was born on 2nd February,2004. We currently stay at
+                Ngong',Kajiado.I am a Bunyore Girls' High School alumni 
+                of 2021. It is located in Vihiga.Managed an A- in my 
+                fourth year and that's how i landed a computer science 
+                course in JKUAT.I scored 403 marks in my KCPE from Peak
+                 Educational Center located in Dagoretti,Nairobi.
+                I identify as a she. I am a christian and a kenyan by birth.   
+    
+            </p>
+    
+        </div>
+        <div class="about-col">
+            <img src="pictures/1688914717136~2.jpg">
+            
+        </div>
+    </div>
+</section>
+
+
+
+<!---about us-->
+<section class="footer">
+    <h4>About Me</h4>
+        <p>I know I can be what I want to be </p>
+    <div class="icons">
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-whatsapp"></i>
+    </div>
+</section>
+
+
+<!------Java script for toggle menu----->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>

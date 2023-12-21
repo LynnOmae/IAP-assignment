@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+<div class="text-box">
+    <h1>LYNN NYANDUKO OMAE</h1>
+    <p>There is more to life than just existing, make it a habit to live</p>
+
+</div>
+
+    </section>
+
+<!----Courses-->
+
+<section class="courses">
+    <h1>Courses I have done </h1>
+    <p>I have managed to tackle two courses</p>
+
+    <div class="row">
+        <div class="courses-col">
+            <h3>Data analytics</h3>
+            <p>Pursued a certificate course in data analytics at Coursera for 4 months. </p>
+            
+        </div>
+        <div class="courses-col">
+            <h3>Bachelor of Science in Computer Science</h3>
+            <p>I am currently doing this. I am in my second year and i can say I love the course. I am in JKUAT main campus.</p>
+            
+        </div>
+        
+    </div>
+
+</section>
+<!---Display-->
+
+<section class="display">
+    <h1>My Journey</h1>
+    <p>As they say, a journey of a thousand miles begins with one step.</p>
+
+    <div class="row">
+        <div class="data-col">
+            <img src="pictures/shutterstock_277915391.webp">
+            <div class="layer">
+                <h3>DATA ANALYTICS</h3>
+            </div>
+
+        </div>
+        <div class="data-col">
+            <img src="pictures/photo-1610563166150-b34df4f3bcd6.avif">
+            <div class="layer">
+                <h3>COMPUTER SCIENCE</h3>
+            </div>
+
+        </div>
+        
+    </div>
+
+</section>
+
+
+<!---about me-->
+<section class="footer">
+    <h4>About Me</h4>
+    <p>The purpose of our lives is to be happy.</p>
+    <div class="icons">
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-whatsapp"></i>
+    </div>
+</section>
+<!------Java script for toggle menu----->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
